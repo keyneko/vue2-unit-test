@@ -20,10 +20,11 @@ module.exports = {
     'src/components/**/*.{js,vue}'
   ],
   coverageDirectory: '<rootDir>/tests/unit/coverage',
-  'collectCoverage': true,
+  // 'collectCoverage': true,
   'coverageReporters': [
     'html',
     'text-summary',
   ],
+  verbose: true,
   testURL: 'http://localhost/'
 }
