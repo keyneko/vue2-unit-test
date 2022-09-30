@@ -7,5 +7,11 @@
   "videoFolder": "tests/e2e/videos",
   "supportFile": "tests/e2e/support/index.js",
   "viewportWidth": 800,
-  "viewportHeight": 600
+  "viewportHeight": 600,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "custom-title"
+  }
 }
