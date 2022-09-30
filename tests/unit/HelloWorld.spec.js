@@ -11,7 +11,7 @@ describe('HelloWorld.vue', () => {
     expect(wrapper.text()).toContain(msg)
   })
 
-  it('修改属性', async () => {
+  it('修改属性', async() => {
     const newMsg = 'hello world'
 
     expect(wrapper.text()).not.toContain(newMsg)

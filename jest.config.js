@@ -14,9 +14,9 @@ module.exports = {
     '**/__tests__/**/*.spec.(js|jsx|ts|tsx)',
   ],
   collectCoverageFrom: [
-    'src/utils/**/*.{js,vue}', 
-    '!src/utils/auth.js', 
-    '!src/utils/request.js', 
+    'src/utils/**/*.{js,vue}',
+    '!src/utils/auth.js',
+    '!src/utils/request.js',
     'src/components/**/*.{js,vue}'
   ],
   coverageDirectory: '<rootDir>/tests/unit/coverage',
