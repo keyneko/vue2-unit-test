@@ -1,4 +1,4 @@
-# hello-world
+# Vue2-unit-test
 
 ## Project setup
 ```
@@ -26,6 +26,7 @@ npm run lint
 npm run test:unit
 npm run test:unit -- -u
 npm run test:unit -- -u -t=list
+
 # e2e test
 npm run test:e2e 
 npm run test:e2e -- --headless --record --key 85e27fd1-3fa5-4ca7-ad7e-8d2a5f6ed24c
